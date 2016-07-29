@@ -1,0 +1,252 @@
+body {
+	margin: 0 10px;
+	background-color: #ECECEC;
+}
+
+nav {
+	margin: 50px auto;
+}
+
+.header {
+	display: inline;
+	padding: 15px 40px;
+}
+
+.header .fa {
+	display: inline;
+	color: pink;
+	background-color: transparent;
+	border: 2px solid pink;
+	padding: 1px 12px;
+}
+
+.header h1 {
+	display: inline;
+	color: #5D595E;
+	background-color: transparent;
+	font-size: 18px;
+	font-family: 'Pacifico', cursive;
+}
+
+nav ul {
+	display: inline;
+	float: right;
+	margin: 0;
+}
+
+nav li {
+	display: inline;
+	padding: 0 30px;
+	font-weight: bold;
+}
+
+nav a {
+	color: #5D595E;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav a:hover {
+	color: rgb(147, 167, 191);
+}
+
+hr {
+	margin: 25px auto;
+	border: 3px solid black;
+}
+
+.skyline {
+	margin: 35px 10px;
+    padding: 35px 0;
+    height: 400px;
+    background-image: url("../img/horizon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 100% 50%;
+    border-radius: 250px;
+}
+
+.skyline h2 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.skyline h3 {
+	color: pink;
+	font-family: 'Pacifico', cursive;
+
+}
+
+.skyline span {
+	color: pink;
+}
+
+.skyline p {
+	font-size: 15px;
+	text-align: center;
+}
+
+
+.about-me {
+	display: inline-block;
+	text-align: center;
+	width: 380px;
+	font-size: 16px;
+	margin: 0px 110px;
+	position: relative;
+    top: 230px;
+}
+
+.about-me p {
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.my-work {
+	display: inline-block;
+	text-align: center;
+	width: 380px;
+	font-size: 16px;
+	margin: 0px 110px;
+	position: relative;
+    top: 233px; 
+}
+
+.my-work p {
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.pictures {
+	padding: 20px 15px;
+	width: 1200px;
+	height: 720px;
+}
+
+.pictures p {
+	color: pink;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	margin: 0;
+	font-size: 20px;
+}
+
+.tree {
+	width: 212px;
+    height: 343px;
+    display: inline-block;
+    padding: 0px 26px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+.tree img {
+	display: inline-block;
+	border-radius: 35px;
+}
+
+.text {
+	height: 286px;
+    border-radius: 44px;
+    background-color: white;
+}
+
+.text h4 {
+	margin: 0;
+    display: inline-block;
+    width: 212px;
+    height: 27px;
+    font-size: 21px;
+    color: black;
+    position: relative;
+    bottom: 40px;
+    background-color: white;
+    padding-top: 10px;
+}
+.text hr{
+	position: relative;
+    bottom: 40px;
+    margin: 0;
+	border: 1px solid black;
+}
+
+.text p {
+	margin: 0;
+    display: inline-block;
+    width: 187px;
+    height: 26px;
+    text-align: left;
+    position: relative;
+    bottom: 33px;
+    left: 9px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    color: pink;
+    padding: 0 4px;
+}
+
+footer {
+	background-color: #2D2D2D;
+}
+
+.contact {
+	display: inline-block;
+	text-align: left;
+	width: 610px;
+    height: 345px;
+}
+
+.contact h5 {
+	font-size: 20px;
+	color: pink;
+	margin: 10px 0;
+    padding-top: 30px;
+	font-family: 'Pacifico', cursive;
+}
+
+.contact input {
+	width: 540px;
+    font-size: 18px;
+    background-color: #ECECEC;
+}
+
+.contact textarea {
+	width: 540px;
+    font-size: 18px;
+    background-color: #ECECEC
+}
+
+footer button {
+	background: transparent;
+	color: #ECECEC; 
+	border: none;
+}
+
+footer ul {
+	display: inline-block;
+	margin: 0;
+    float: right;
+    position: relative;
+    top: 185px;
+    width: 350px;
+    height: 50px;
+}
+
+footer li {
+	display: inline-block;
+	width: 35px;
+    height: 35px;
+    position: relative;
+    top: 5px;
+    padding: 0 5px;
+    margin: 0 15px;
+	border: 2px solid blue;
+}
+
+footer i {
+	display: inline-block;
+	color: red;
+}
